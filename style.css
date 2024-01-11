@@ -58,14 +58,10 @@ header nav ul li a{
     text-decoration: none;
     color: #fff;
     margin-right: 20px;
-    transition: 5s;
 }
 
 header nav ul li a:hover{
-    text-decoration: underline;
-    background: linear-gradient(to top, yellow 15%, green 70%, darkgreen 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    font-weight: 600;
    
 }
 
@@ -73,7 +69,22 @@ header nav ul li a button{
     color: #fff;
     background-color: transparent;
     padding: 5px 10px;
-    border-radius: 3px;
+    border-radius: 6px;
+    border: 0.5px #fff solid;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 95px;
+}
+
+header nav ul li a button:hover{
+    font-weight: 600;
+}
+
+header nav ul li  span{
+    color: #fff;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 6px;
     border: 0.5px #fff solid;
     font-size: 16px;
     margin-right: 20px;
