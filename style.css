@@ -13,7 +13,7 @@ body{
 header{
     width: 100%;
     height: 100vh;
-    background-image: url(img/background1.jpeg);
+    background-image: url(img/markx.jpg);
     background-size: cover;
 }
 
@@ -28,7 +28,9 @@ header nav ul{
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    background-color: #000;
+    background-color: #011228;
+    position: -webkit-sticky;
+    position: relative;
 }
 
 header nav ul .logo{
@@ -52,17 +54,30 @@ header nav ul li{
 
 header nav ul li a{
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 100;
     text-decoration: none;
     color: #fff;
     margin-right: 20px;
+    transition: 5s;
 }
 
 header nav ul li a:hover{
+    text-decoration: underline;
     background: linear-gradient(to top, yellow 15%, green 70%, darkgreen 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
    
+}
+
+header nav ul li a button{
+    color: #fff;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 0.5px #fff solid;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 95px;
 }
 
  .header-text h2{
@@ -71,7 +86,7 @@ header nav ul li a:hover{
     line-height: 3rem;
     position: relative;
     margin-left: 100px;
-    margin-top: 200px;
+    margin-top: 50px;
     font-size: 26PX;
    
 }
@@ -182,6 +197,7 @@ body .p1 p{
 
 .section3{
     background-color: rgb(166, 197, 166);
+    padding: 30px;
 }
 
 .section3 .row3{
@@ -194,11 +210,11 @@ body .p1 p{
     margin-bottom: 30px;
 }
 
-.section3 .row3 .texts{
-    margin-top: 40px;
+.row3 .texts .tikaseo {
+    margin-top: 70px;
     margin-left: 300px;
-    margin-bottom: 40px;
-    line-height: 50px;
+    margin-bottom: 0px;
+    line-height: 40px;
 }
 
 .section3 .row3 .gen{
@@ -330,7 +346,7 @@ width: 90%;
 .section5 .row5{
     display: flex;
     margin:0 0 10% 10%;
-    padding-bottom: 75px;
+    padding-bottom: 15px;
 }
 
 .section5 .row5 .info2 h1{
@@ -454,10 +470,9 @@ width: 90%;
 
 .footer{
     color: #fff;
-    font-weight: 900;
-    background-image: url(img/footer.jpeg);
+    font-weight: 100;
+    background-color: #011228;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .footer .row6{
@@ -545,7 +560,7 @@ width: 90%;
     height: 50px;
     text-align: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 375px){
